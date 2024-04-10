@@ -15,6 +15,3 @@ class SearchPage:
         except (ValueError, Exception):
             print(f'Ошибка при создании скриншота')
             return False
-
-    #def screenshots_check(self, locator):
-     #   return (self.page.locator(locator)(".status")).to_have_text("Submitted")

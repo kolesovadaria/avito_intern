@@ -21,7 +21,6 @@ class TestV:
         my_page.navigate(URL)
         result = my_page.screenshots_water(self.path2)
         assert result, "Скриншот {} не создан".format(self.path2)
-        #assert 'Submitted' == my_page.result_text()
 
     def test_3(self, browser, context, page):
         my_page = FormPage(page)
